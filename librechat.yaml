@@ -27,7 +27,7 @@ interface:
   #   modalContent: |
   #     #
   endpointsMenu: true
-  modelSelect: false
+  modelSelect: true
   parameters: true
   sidePanel: true
   presets: true
@@ -44,8 +44,8 @@ interface:
 #    size: "normal"      # Options: "normal", "compact", "flexible", or "invisible"
 
 # Example Registration Object Structure (optional)
-registration:
-  socialLogins: ['github', 'google', 'discord', 'openid', 'facebook', 'apple', 'saml']
+# registration:
+#   socialLogins: ['github', 'google', 'discord', 'openid', 'facebook', 'apple', 'saml']
   # allowedDomains:
   # - "gmail.com"
 
@@ -138,6 +138,7 @@ endpoints:
       models:
         default: [
           "llama3.2:latest"
+          # "huihui_ai/deepseek-r1-abliterated:1.5b"
           ]
         # fetching list of models is supported but the `name` field must start
         # with `ollama` (case-insensitive), as it does in this example.

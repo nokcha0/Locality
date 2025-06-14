@@ -1,6 +1,6 @@
 ## Add ollama in the container
 
-`docker compose up`
+`docker compose up -d`
 
 ## Access ollama commands from the container
 
