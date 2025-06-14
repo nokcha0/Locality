@@ -36,6 +36,7 @@ client/public/images/
 client/public/main.js
 client/public/main.js.map
 client/public/main.js.LICENSE.txt
+ollama/
 
 # Azure Blob Storage Emulator (Azurite)
 __azurite**
@@ -61,10 +62,6 @@ bower_components/
 .floobit
 .floo
 .flooignore
-
-#config file
-librechat.yaml
-librechat.yml
 
 # Environment
 .npmrc
@@ -93,10 +90,6 @@ config.local.ts
 junit.xml
 **/.venv/
 **/venv/
-
-# docker override file
-docker-compose.override.yaml
-docker-compose.override.yml
 
 # meilisearch
 meilisearch
